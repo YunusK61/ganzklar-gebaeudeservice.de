@@ -1,5 +1,5 @@
 ---
-import {Icon} from 'astro-icon'
+import { Icon} from "astro-icon";
 import {
   AnnouncementBar,
 	Button,
@@ -13,8 +13,8 @@ import Layout from '../../layouts/Page.astro';
 import TextAndImageHero from '../../components/sections/heros/TextAndImageHero.astro';
 
 const seo = {
-	title: 'Landing Page #1 | Astro Odyssey Theme',
-	description: 'Landing Page #1 | Astro Odyssey Theme',
+	title: 'Ganz-Klar Gebäudereinigung',
+	description: 'Ganz-Klar Gebäudereinigung',
 };
 ---
 
@@ -27,9 +27,9 @@ const seo = {
 		</div>
 		<div slot="btns-container">
 			<Button href="/theme/get-started" customIcon
-				>Get Started <Fragment slot="icon">
-          <Icon name="ic:baseline-chevron-right"/>
-        </Fragment></Button
+			>Get Started <Fragment slot="icon">
+				<Icon name="ic:baseline-chevron-right"/>
+			</Fragment></Button
 			>
 		</div>
 		<picture slot="image-container">
@@ -124,4 +124,3 @@ const seo = {
   </CtaCardSection>
 
 </Layout>
-

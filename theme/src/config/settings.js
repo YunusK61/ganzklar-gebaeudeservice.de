@@ -1,8 +1,8 @@
 export default {
-	title: `Odyssey Astro Theme | A Marketing Website Theme for Startups and Businesses`,
-	description: `A simple, clean, and modern theme for a startup or businesses' marketing website.`,
-	url: `https://odyssey-theme.littlesticks.dev`, // No trailing slash!
-	name: `Odyssey`, // The short name of the business or brand name. Used for things like the copyright in the footer.
-  enableThemeSwitcher: true,
-  showLittleSticksPlug: true, // Disable this if you want to remove the Little Sticks plug from the footer. (╯°□°)╯︵ ┻━┻
+	title: `Ganz-Klar-Gebäudeservice - Gebäudereinigung in Augsburg und Umgebung`,
+	description: `Ganz-Klar-Gebäudeservice - Gebäudereinigung in Augsburg und Umgebung`,
+	url: `https://www.ganz-klar-gebaeudeservice.de`, // No trailing slash!
+	name: `Ganz-Klar`, // The short name of the business or brand name. Used for things like the copyright in the footer.
+  enableThemeSwitcher: false,
+  showLittleSticksPlug: false, // Disable this if you want to remove the Little Sticks plug from the footer. (╯°□°)╯︵ ┻━┻
 };

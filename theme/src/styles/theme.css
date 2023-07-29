@@ -145,3 +145,22 @@
 
 	--theme-button-border-radius: 0.5rem;
 }
+
+[data-theme='test'] {
+	/* Theme Colors */
+	/* Theme Colors */
+	--theme-primary: #ffffff;
+	--theme-primary-hover: #6f6f6f;
+	--theme-on-primary: hsl(0, 0%, 100%);
+
+	--theme-bg: #fffffe;
+	--theme-on-bg: #477cf1;
+
+	--theme-surface-1: #71b6c0;
+	--theme-on-surface-1: #477cf1;
+
+	--theme-surface-2: #477cf1;
+	--theme-on-surface-2: #ffffff;
+
+	--theme-button-border-radius: 0.5rem;
+}
