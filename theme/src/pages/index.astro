@@ -3,6 +3,9 @@ import { Container, ThreeColumnTextSection, Button } from '@littlesticks/odyssey
 
 import Layout from '../layouts/Page.astro';
 import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro';
+
+import {CtaCardSection} from '@littlesticks/odyssey-theme-components';
+import {Icon} from "astro-icon";
 ---
 
 <Layout>
@@ -40,6 +43,14 @@ import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro'
 			</div>
 			<Button slot="column-3-cta">Learn More</Button>
 		</ThreeColumnTextSection>
+
+		<CtaCardSection background="var(--theme-surface-2)" color="var(--theme-on-surface-2)">
+			<h2>Start Your Website Today</h2>
+			<p>It only takes a couple clicks to have a new, modern website for your business or startup.</p>
+			<Button href="/theme/get-started" customIcon>Get Started <Fragment slot="icon">
+				<Icon name="ic:baseline-chevron-right"/>
+			</Fragment></Button>
+		</CtaCardSection>
 	</Container>
 </Layout>
 
