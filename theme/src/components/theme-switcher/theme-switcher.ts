@@ -10,31 +10,36 @@ import {
 } from './icons';
 
 const themes = [
-  {
-    name: 'default',
-    icon: classicThemeIcon,
-    label: 'Classic',
-  },
-  {
-    name: 'dark',
-    icon: darkThemeIcon,
-    label: 'Dark',
-  },
-  {
-    name: 'earth',
-    icon: earthThemeIcon,
-    label: 'Earth',
-  },
-  {
-    name: 'ocean',
-    icon: blueThemeIcon,
-    label: 'Ocean',
-  },
-  {
-    name: 'sand',
-    icon: orangeThemeIcon,
-    label: 'Sand',
-  }
+	{
+		name: 'default',
+		icon: classicThemeIcon,
+		label: 'Classic',
+	},
+	{
+		name: 'dark',
+		icon: darkThemeIcon,
+		label: 'Dark',
+	},
+	{
+		name: 'earth',
+		icon: earthThemeIcon,
+		label: 'Earth',
+	},
+	{
+		name: 'ocean',
+		icon: blueThemeIcon,
+		label: 'Ocean',
+	},
+	{
+		name: 'sand',
+		icon: orangeThemeIcon,
+		label: 'Sand',
+	},
+	{
+		name: 'test',
+		icon: orangeThemeIcon,
+		label: 'Test',
+	}
 ]
 
 @customElement('theme-switcher')
