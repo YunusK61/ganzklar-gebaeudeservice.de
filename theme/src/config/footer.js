@@ -14,10 +14,14 @@ export const footerLists = [
 				title: "Tylestr. 9, 86156 Augsburg"
 			},
 			{
-				title: "+4913412341242134"
+				title: "+49 152 58431495"
 			},
 			{
-				title: "test@mail.com"
+				title: "info@ganzklar-gebaeudeservice.de"
+			}
+			{
+				title: "www.ganzklar-gebaeudeservice.de"
+				slug: 'components/section/hero/HomeHeroSection'
 			}
 		],
 	},
