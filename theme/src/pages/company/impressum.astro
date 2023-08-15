@@ -1,14 +1,17 @@
+---
 import { TextSection } from '@littlesticks/odyssey-theme-components';
 import Layout from '../../layouts/Page.astro';
 import HeroSection from '../../components/sections/heros/HeroSection.astro';
 
 const seo = {
-  title: 'Impressum - Ganz-Klar Gebäudeservice',
+  title: 'Impressum',
   description: 'Sorgfältig zusammengestelltes Impressum: Hier finden Sie die rechtlichen Angaben und Kontaktdetails von Ganz-Klar Gebäudeservice für erstklassige Reinigungsdienstleistungen und hervorragenden Kundenservice',
+};
+---
 
-<Layout {...seo}>
-  <HeroSection>
-    <div slot="text-container">
+<Layout {seo}>
+    <HeroSection>
+	    <div slot="text-container">
       <h2>Impressum</h2>
       <p>
         <h3>Angaben gemäß § 5 TMG:</h3>
@@ -36,5 +39,5 @@ const seo = {
         Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
       </p>
     </div>
-  </HeroSection>
+    </TextSection>
 </Layout>
