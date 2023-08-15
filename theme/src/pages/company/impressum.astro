@@ -1,0 +1,41 @@
+---
+import { TextSection } from '@littlesticks/odyssey-theme-components';
+import Layout from '../../layouts/Page.astro';
+import HeroSection from '../../components/sections/heros/HeroSection.astro';
+
+const seo = {
+	title: 'Impressum',
+	description: 'Ganz-Klar Gebäudeservice - Ihre Experten für makellose Sauberkeit. Professionelle Reinigung, Flexibilität, Zuverlässigkeit und Kundenzufriedenheit stehen im Fokus unserer Arbeit. Kontaktieren Sie uns für erstklassigen Service und eine einladende Umgebung!',
+};
+
+<Layout {seo}>
+	<HeroSection>
+		<div slot="text-container">
+			<h2>Impressum</h2>
+			<p>
+				<h3>Angaben gemäß § 5 TMG:</h3>
+        Ganz-Klar Gebäudeservice
+        Tylerstr. 9
+        86156 Augsburg
+			</p>
+
+            <h3>Vertreten durch:</h3>
+            <p>
+                Frau Gonca Keskin
+            </p>
+            <h3>Kontakt</h3>
+            <p>
+                Telefon:0152 58431495
+                E-Mail:info@ganzklar-gebaeudeservice.de
+            </p>
+            <h3>Streitschlichtung:</h3>
+            <p>
+                Die Europäische Kommission stellt eine Plattform
+                zur Online-Streitbeilegung (OS) bereit:  
+                http://ec.europa.eu/consumers/odr 
+            </p>
+            <p>
+            Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen. 
+            </p>
+    </HeroSection>
+</Layout>
