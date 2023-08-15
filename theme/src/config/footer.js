@@ -19,10 +19,6 @@ export const footerLists = [
 			{
 				title: "info@ganzklar-gebaeudeservice.de"
 			}
-			{
-				title: "www.ganzklar-gebaeudeservice.de"
-				slug: 'components/section/hero/HomeHeroSection'
-			}
 		],
 	},
 	{
