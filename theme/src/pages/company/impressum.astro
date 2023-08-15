@@ -1,7 +1,6 @@
 ---
 import { TextSection } from '@littlesticks/odyssey-theme-components';
 import Layout from '../../layouts/Page.astro';
-import HeroSection from '../../components/sections/heros/HeroSection.astro';
 
 const seo = {
   title: 'Impressum',
@@ -9,34 +8,32 @@ const seo = {
 };
 ---
 
-<Layout {seo}>
-    <HeroSection>
-	    <div slot="text-container">
-      <h2>Impressum</h2>
-      <p>
-        <h3>Angaben gemäß § 5 TMG:</h3>
-        Ganz-Klar Gebäudeservice
-        Tylerstr. 9
-        86156 Augsburg
-      </p>
+<Layout seo={seo}>
+    <TextSection narrow>
+            <h2>Impressum</h2>
+            <p>
+            <h3>Angaben gemäß § 5 TMG:</h3>
+            Ganz-Klar Gebäudeservice
+            Tylerstr. 9
+            86156 Augsburg
+            </p>
 
-      <h3>Vertreten durch</h3>
-      <p>Frau Gonca Keskin</p>
+            <h3>Vertreten durch</h3>
+            <p>Frau Gonca Keskin</p>
 
-      <h3>Kontakt</h3>
-      <p>
-        Telefon: 0152 58431495<br />
-        E-Mail: <a href="mailto:info@ganzklar-gebaeudeservice.de">info@ganzklar-gebaeudeservice.de</a>
-      </p>
+            <h3>Kontakt</h3>
+            <p>
+            Telefon: 0152 58431495<br />
+            E-Mail: <a href="mailto:info@ganzklar-gebaeudeservice.de">info@ganzklar-gebaeudeservice.de</a>
+            </p>
 
-      <h3>Streitschlichtung</h3>
-      <p>
-        Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit 
-        <a href="http://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">http://ec.europa.eu/consumers/odr</a>
-      </p>
-      <p>
-        Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
-      </p>
-    </div>
+            <h3>Streitschlichtung</h3>
+            <p>
+            Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit 
+            <a href="http://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">http://ec.europa.eu/consumers/odr</a>
+            </p>
+            <p>
+            Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+            </p>
     </TextSection>
 </Layout>
