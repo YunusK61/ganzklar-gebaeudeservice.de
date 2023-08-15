@@ -1,0 +1,62 @@
+---
+import Layout from '../../layouts/Page.astro';
+import { Container } from '@littlesticks/odyssey-theme-components';
+import {
+    StickyTextImageSection,
+} from '@littlesticks/odyssey-theme-components';
+
+import { Icon} from "astro-icon";
+
+const seo = {
+  title: `Services`,
+  description: `Services des GanzKlar-Gebäudeservices`,
+};
+---
+
+<Layout seo={seo}>
+	<Container>
+
+        <StickyTextImageSection>
+            <div slot="text-container">
+              <h1>Serivces</h1>
+              <h2>Service 1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
+                tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
+                consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
+                mollitia cumque. Velit.
+              </p>
+              <h3>Service 2</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
+                tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
+                consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
+                mollitia cumque. Velit.
+
+                <ul>
+                    <li style="font-weight: bold">asdfasdf</li>
+                    <li>asdfasdf</li>
+                    <li>asdfasdf</li>
+                    <li>asdfasdf</li>
+                </ul>
+              </p>
+              <h3>Service 3</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorem
+                tempore odio! Nemo consectetur ipsa aperiam similique maxime maiores
+                consequatur explicabo ut quibusdam fugiat corporis, dignissimos tenetur,
+                mollitia cumque. Velit.
+              </p>
+            </div>
+             <picture slot="image-container">
+              <img
+                src="/assets/images/landing-1/test.jpg"
+                alt="Astro Odyssey"
+                loading="lazy"
+              />
+            </picture>
+          </StickyTextImageSection>
+        
+    
+	</Container>
+</Layout>
