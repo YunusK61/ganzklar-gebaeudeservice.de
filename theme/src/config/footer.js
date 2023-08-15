@@ -28,6 +28,10 @@ export const footerLists = [
 				slug: '/company/about',
 			},
 			{
+				title: 'Kontakt',
+				slug: '/company/contact',
+			},
+			{
 				title: 'Datenschutz',
 				slug: '/company/legal',
 			},
@@ -35,10 +39,7 @@ export const footerLists = [
 				title: 'Impressum',
 				slug: '/company/impressum',
 			},
-			{
-				title: 'Kontakt',
-				slug: '/company/contact',
-			},
+			
 		],
 	},
 ];
