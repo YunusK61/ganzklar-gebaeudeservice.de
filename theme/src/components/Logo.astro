@@ -1,9 +1,12 @@
 ---
+import { Picture } from "astro-imagetools/components";
 ---
 
 <div class="odyssey-logo">
-	<img width="110px" src="assets/images/ganz-klar-logo-only.png" alt="ganz-klar-logo">
-	Ganz-Klar Gebäudeservice
+	<picture>
+		<img src="/assets/images/ganz-klar-logo-only.png" alt="ganz-klar-logo">
+	</picture>
+	<p>Ganz-Klar Gebäudeservice</p>
 </div>
 
 <style>
@@ -13,9 +16,19 @@
 		gap: 30px;
 		margin: 0;
 		font-family: var(--theme-font-family-serif);
-    font-size: var(--font-size-md);
+		font-size: var(--font-size-md);
 		color: inherit;
 	}
+
+	.odyssey-logo img {
+		width: 100px;
+		margin: 0;
+	}
+
+	.odyssey-logo p {
+		padding-top: 40px;
+	}
+
 	.odyssey-logo:hover {
 		text-decoration: underline;
 		cursor: pointer;
