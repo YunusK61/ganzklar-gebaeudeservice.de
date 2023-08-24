@@ -12,7 +12,28 @@ const seo = {
   description: `Entdecken Sie unser breites Leistungsspektrum für Gebäudereinigung und mehr. Von Grundreinigung bis Treppenhausreinigung, Glas- und Baureinigung bieten wir professionelle Services für Sauberkeit und Hygiene. Unser zuverlässiger Hausmeisterservice sowie Umzugs- und Entrümpelungsservice runden unser Angebot ab. Vertrauen Sie auf unsere Expertise für ein makelloses Umfeld.`,
 };
 ---
-
+<Container>
+	<section class="hero-section__section">
+		<div class="hero-section__text">
+				<h3>Grundreinigung</h3>
+				<p>
+					Als Reinigungsfirma gehört die Grundreinigung mit zu unserem umfassenden Angebots in der Gebäudereinigung. 
+          Wir bieten diese Reinigungsdienste für alle Arten von Gebäuden an, einschließlich Büros, Wohngebäude, Einzelhandel und Industrieanlagen. 
+          Unsere erfahrenen Reinigungskräfte sorgen auch bei hartnäckigen Verschmutzungen dafür, dass Ihr Gebäude immer sauber und gepflegt aussieht.
+				</p>
+        {settings.enableThemeSwitcher && <ThemeSwitcher client:load/>}
+		</div>
+		<div class="hero-section__image">
+				<picture>
+					<img
+						src="/assets/images/grundreinigung.jpg"
+						alt="grundreinigung"
+						id="home-hero-image"
+					/>
+				</picture>
+		</div>
+	</section>
+</Container>
 <Layout seo={seo}>
 	<Container>
 
