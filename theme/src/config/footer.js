@@ -11,7 +11,7 @@ export const footerLists = [
 		title: 'Kontakt',
 		items: [
 			{
-				title: "Tylestr. 9, 86156 Augsburg"
+				title: "Tylerstr. 9, 86156 Augsburg"
 			},
 			{
 				title: "+49 152 58431495"
